@@ -49,7 +49,7 @@ if (userRole === 'admin') {
 
 //has access to all admin and superadmin pages
 if (userRole === 'superadmin') {
-    roleBasedNavItems = [...roleBasedNavItems, ...adminNavItems, ...superAdminNavItems];
+    roleBasedNavItems = [...roleBasedNavItems, ...superAdminNavItems];
 }
 
 const footerNavItems: NavItem[] = [
